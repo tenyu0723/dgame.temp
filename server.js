@@ -325,4 +325,4 @@ client.channels.cache.get(log_ch_id).send(`[DMログ]\n送信者:${message.autho
  }
 });
 
-client.login("PASTE-YOUR-ACCOUNT-TOKEN");
+client.login("PASTE-YOUR-ACCOUNT-TOKEN"); // You must change
