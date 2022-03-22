@@ -315,7 +315,7 @@ let ch = user.dmChannel
 if (!ch) ch = await user.createDM();
 if(message.channel.id === ch.id){
 if(message.author.id == "304932786286886912"){
-client.channels.cache.get("PASTE-LOG-CH-ID").send(`[DMログ]\n送信者:${message.author.tag}\n内容:${message.content}`)
+client.channels.cache.get(log_ch_id).send(`[DMログ]\n送信者:${message.author.tag}\n内容:${message.content}`)
 setTimeout(() => {
 client.channels.cache.get(target_ch_id).send("::atk")
 }, 1000 * 15)
